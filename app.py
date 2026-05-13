@@ -104,7 +104,7 @@ year_data = merged_data[merged_data["Aasta"] == selected_year]
 
 fig, ax = plt.subplots(figsize=(10,6))
 year_data.plot(column="Loomulik iive", ax = ax, legend=True, cmap="coolwarm")
-plt.title(f"Eesti loomulik iive {selected_year}")
+plt.title(f"Eesti loomulik iive maakondade kaupa {selected_year}")
 plt.axis("off")
 
 st.pyplot(fig)
