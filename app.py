@@ -89,7 +89,7 @@ df = import_data()
 #st.write(df.head())
 
 
-geojson = "maakonnad.geojson"
+geojson = "zip://maakonnad.zip"
 gdf = gpd.read_file(geojson)
 #st.write(gdf.head())
 
